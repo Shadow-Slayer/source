@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Shadow-Slayer/thorbot/master/pt-br.json", function (json) {
+        $.get("https://rawgit.com/Shadow-Slayer/source/master/pt-br.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -238,19 +238,19 @@
     var basicBot = {
         version: "2.8.17",
         status: false,
-        name: "Move",
+        name: "Move It - Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Shadow-Slayer/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Shadow-Slayer/thorbot/master/pt-br.json",
+        chatLink: "https://rawgit.com/Shadow-Slayer/source/master/pt-br.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "Move It - Bot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/Shadow-Slayer/thorbot/master/pt-br.json",
+            chatLink: "https://rawgit.com/Shadow-Slayer/source/master/pt-br.json",
             scriptLink: "https://rawgit.com/Shadow-Slayer/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
@@ -274,7 +274,7 @@
             voteSkipLimit: 10,
             historySkip: true,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 7,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
@@ -288,7 +288,13 @@
                 ["mix", "You played a mix, which is against the rules. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["unavailable", "The song you played was not available for some users. "]
+                ["unavailable", "The song you played was not available for some users. "],
+                ["som", "A música tocada tinha qualidade de som ruim ou não tinha som. "],
+                ["tema", "Sua música não estava de acordo com o tema da sala. "],
+                ["op", "Essa música está na lista OP. "],
+                ["tocada", "Sua música já foi tocada recentememnte. "],
+                ["nudes", "A música continha conteudo impróprio NSFW :underage:"],
+                ["ind", "A música não estava disponivel para alguns usuários"]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
@@ -299,14 +305,14 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: null,
-            themeLink: null,
-            fbLink: null,
+            rulesLink: "http://goo.gl/Nw0Jth",
+            themeLink: "http://goo.gl/Nw0Jth",
+            fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
-            website: null,
-            intervalMessages: [],
-            messageInterval: 5,
-            songstats: true,
+            website: "http://goo.gl/O4tlVo",
+            intervalMessages: ["!roleta",":large_orange_diamond: Roleta a cada 6 músicas, fique atento ;) :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
+            messageInterval: 2,
+            songstats: false,
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
