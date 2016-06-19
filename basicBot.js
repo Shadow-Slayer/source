@@ -1746,7 +1746,7 @@
                 }
             },
             
-            ballCommand: {
+            jokenpoCommand: {
                 command: ['jokenpo'],
                 rank: 'user',
                 type: 'startsWith',
