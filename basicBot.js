@@ -381,7 +381,7 @@
                     API.sendChat(basicBot.chat.isopen);
                     setTimeout(function () {
                             API.sendChat(basicBot.chat.isopen2);
-                        }, 4 * 1000);
+                        }, 1 * 1000);
                     
                 },
                 endRoulette: function () {
