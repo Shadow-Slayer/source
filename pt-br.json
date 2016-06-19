@@ -179,6 +179,7 @@
     "rouletteleave": "\/me @%%NAME%% deixou a roleta!",
     "songlink": "\/me [@%%NAME%%] Link para a m\u00fasica atual: %%LINK%%",
     "usedlockskip": "\/me [%%NAME%% usou 'lockskip'.]",
+    "usedskip": "\/me [%%NAME%% usou 'skip'.]",
     "lockskippos": "\/me [@%%NAME%%] Lockskip est\u00e1 agora movendo para a posi\u00e7\u00e3o %%POSITION%%.",
     "lockguardtime": "\/me [@%%NAME%%] A prote\u00e7\u00e3o de travamento agora \u00e9 %%TIME%% minuto(s).",
     "maxlengthtime": "\/me [@%%NAME%%] A dura\u00e7\u00e3o m\u00e1xima de tempo agora \u00e9 %%TIME%% minutos.",
