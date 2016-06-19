@@ -1924,7 +1924,7 @@
             },
 
             cookieCommand: {
-                command: ['cookie','bolacha'],
+                command: ['cookie','bolacha','biscoito'],
                 rank: 'user',
                 type: 'startsWith',
                 getCookie: function (chat) {
