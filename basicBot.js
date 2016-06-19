@@ -2860,20 +2860,7 @@
             },
             
             parCommand: {
-                command: ['par','impar'],
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        API.sendChat(basicBot.chat.par)
-                    }
-                }
-            },
-            
-            jokenpoCommand: {
-                command: ['pedra', 'papel'],
+                command: ['par', 'impar'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2882,11 +2869,11 @@
                     else {
                             var crowd = API.getUsers();
                             var msg = chat.message;
-                            var argument = msg.substring(cmd.length + 1);
+                            var argument = msg.substring(cmd.length + 1).replace(/@/g, '');
                             var randomUser = Math.floor(Math.random() * crowd.length);
-                            var randomBall = Math.floor(Math.random() * basicBot.chat.jokenpo.length);
+                            var randomBall = Math.floor(Math.random() * basicBot.chat.balls.length);
                             var randomSentence = Math.floor(Math.random() * 1);
-                            API.sendChat(subChat(basicBot.chat.ball, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.chat.jokenpo[randomBall]}));
+                            API.sendChat(subChat(basicBot.chat.ball, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.chat.balls[randomBall]}));
                      }
                 }
             },
