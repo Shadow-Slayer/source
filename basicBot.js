@@ -2859,7 +2859,7 @@
                 }
             },
             
-            parCommand: {
+            ballCommand: {
                 command: ['par', 'impar'],
                 rank: 'user',
                 type: 'startsWith',
