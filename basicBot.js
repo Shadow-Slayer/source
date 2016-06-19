@@ -3294,7 +3294,7 @@
             },
 
             thorCommand: {
-              command: 'thor',
+              command: 'thorrrrr',
               rank: 'user',
               type: 'exact',
               functionality: function (chat, cmd) {
