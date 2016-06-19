@@ -2873,7 +2873,7 @@
             },
             
             jokenpoCommand: {
-                command: ['pedra', 'papel','tesoura'],
+                command: ['pedra', 'papel'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
