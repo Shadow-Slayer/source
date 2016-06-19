@@ -1924,7 +1924,7 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: ['cookie','bolacha'],
                 rank: 'user',
                 type: 'startsWith',
                 getCookie: function (chat) {
@@ -1958,7 +1958,8 @@
                     }
                 }
             },
-
+            
+            
             cycleCommand: {
                 command: 'cycle',
                 rank: 'manager',
@@ -2701,7 +2702,7 @@
             },
 
             maxlengthCommand: {
-                command: 'maxlength',
+                command: ['maxlength','duracao'],
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2857,6 +2858,19 @@
                     }
                 }
             },
+            
+            parCommand: {
+                command: ['par','impar'],
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.par)
+                    }
+                }
+            },
 
             refreshCommand: {
                 command: 'refresh',
@@ -2949,7 +2963,7 @@
             },
 
             rouletteCommand: {
-                command: 'roulette',
+                command: ['roulette','roleta'],
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2964,7 +2978,7 @@
             },
 
             rulesCommand: {
-                command: 'rules',
+                command: ['rules','regras'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
