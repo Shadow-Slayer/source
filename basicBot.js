@@ -1208,6 +1208,9 @@
                 if (msg.indexOf('!clearchat') > -1) {
                     API.sendChat('/clear');                    
                 }
+                if (msg.indexOf('!meh') > -1) {
+                    API.sendChat('http://i.imgur.com/Sbie9x3.gif?1');                    
+                }
                 if (msg.indexOf('!evento') > -1) {
                     API.sendChat('/me A Move It! - Brasil irá participar do evento BE (Brazil: The Event) que acontecerá no dia 25/06 às 16h na sala http://plug.dj/brazil-events Contamos com a presença de todos! http://i.imgur.com/j1xc3ds.jpg?1');                    
                 }
