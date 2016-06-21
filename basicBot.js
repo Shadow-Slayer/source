@@ -271,7 +271,7 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: true,
-            voteSkipLimit: 10,
+            voteSkipLimit: 5,
             historySkip: true,
             timeGuard: true,
             maximumSongLength: 7,
@@ -936,7 +936,7 @@
             var timeElapsed = API.getTimeElapsed();
 
             if (basicBot.settings.voteSkip) {
-                if ((mehs - woots) >= (basicBot.settings.voteSkipLimit)) {
+                if ((woots) >= (basicBot.settings.voteSkipLimit)) {
                     API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
                     if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
                         basicBot.roomUtilities.smartSkip();
@@ -1795,7 +1795,7 @@
                     else {
                             var name = chat.message.substring(cmd.length + 2);
                             var msg = chat.message;
-                            API.sendChat('/me Por favor ' + name + ', em nossa comunidade não damos "chato" nas músicas, preferimos silencia-lá =)'); 
+                            API.sendChat('/me Por favor ' + name + ', em nossa comunidade não damos "chato" nas músicas, preferimos silencia-lá'); 
                      }
                 }
             },
