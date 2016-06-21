@@ -1200,16 +1200,16 @@
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
                 }
-                if (msg.indexOf('http://plug.dj') > -1) {
+                /**if (msg.indexOf('http://plug.dj') > -1) {
                     API.moderateDeleteChat(chat.cid);
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
-                    return true;
+                    return true;**/
                 }
                 if (msg.indexOf('!clearchat') > -1) {
                     API.sendChat('/clear');                    
                 }
-                if (msg.indexOf('!meh') > -1) {
-                    API.sendChat('http://i.imgur.com/Sbie9x3.gif?1');                    
+                /**if (msg.indexOf('!meh') > -1) {
+                    API.sendChat('');   **/                 
                 }
                 if (msg.indexOf('!evento') > -1) {
                     API.sendChat('/me A Move It! - Brasil irá participar do evento BE (Brazil: The Event) que acontecerá no dia 25/06 às 16h na sala http://plug.dj/brazil-events Contamos com a presença de todos! http://i.imgur.com/j1xc3ds.jpg?1');                    
@@ -1785,6 +1785,21 @@
                 }
             },
 
+            mehCommand: {
+                command: ['meh'],
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                            var name = chat.message.substring(cmd.length + 2);
+                            var msg = chat.message;
+                            API.sendChat('/me Por favor ' + name + ', em nossa comunidade não damos "chato" nas músicas, preferimos silencia-lá =)'); 
+                     }
+                }
+            },
+            
             banCommand: {
                 command: 'ban',
                 rank: 'bouncer',
