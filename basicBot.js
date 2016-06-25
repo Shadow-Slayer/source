@@ -304,7 +304,7 @@
             filterChat: false,
             etaRestriction: false,
             welcome: true,
-            opLink: null,
+            opLink: "https://rawgit.com/Shadow-Slayer/source/master/OPlist.json",
             rulesLink: "http://goo.gl/Nw0Jth",
             themeLink: "http://goo.gl/Nw0Jth",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
