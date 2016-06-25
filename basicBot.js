@@ -310,7 +310,7 @@
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://goo.gl/O4tlVo",
-            intervalMessages: ["!roleta",":large_orange_diamond: Roleta a cada 6 músicas, fique atento :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
+            intervalMessages: ["!roleta","/me A Move It! - Brasil está participando do evento BE (Brazil: The Event) que ocorre hoje dia 25/06 às 16h na sala https://plug.dj/brazil-events. Quem quiser pode aparecer por lá! Quem não quiser, a Move It continuará funcionando normalmente. http://i.imgur.com/j1xc3ds.jpg?1",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
             messageInterval: 2,
             songstats: false,
             commandLiteral: "!",
