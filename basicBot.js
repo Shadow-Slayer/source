@@ -1210,7 +1210,7 @@
                 }
                 
                 if (msg.indexOf('!evento') > -1) {
-                    API.sendChat('/me A Move It! - Brasil está participando do evento BE (Brazil: The Event) que ocorre hoje dia 25/06 às 16h na sala https://plug.dj/brazil-events. Quem quiser pode aparecer por lá! Quem não quiser, a Move It continuará funcionando normalmente. http://i.imgur.com/j1xc3ds.jpg?1');                    
+                    API.sendChat('/me A Move It! - Brasil está participando do evento BE (Brazil: The Event) que ocorre hoje dia 25/06 às 16h na sala https://plug.dj/brazil-events. Quem quiser pode aparecer por lá! Quem não quiser, a Move It continuará funcionando normalmente.');                    
                 }
                 if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
                     API.moderateDeleteChat(chat.cid);
