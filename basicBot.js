@@ -310,7 +310,7 @@
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://goo.gl/O4tlVo",
-            intervalMessages: ["!roleta","!evento",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
+            intervalMessages: ["!roleta",":large_orange_diamond: Roleta a cada 6 músicas, fique atento :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
             messageInterval: 2,
             songstats: false,
             commandLiteral: "!",
@@ -1200,18 +1200,18 @@
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
                 }
-                /**if (msg.indexOf('http://plug.dj') > -1) {
+                if (msg.indexOf('http://plug.dj') > -1) {
                     API.moderateDeleteChat(chat.cid);
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
-                }**/
+                }
                 if (msg.indexOf('!clearchat') > -1) {
                     API.sendChat('/clear');                    
                 }
                 
-                if (msg.indexOf('!evento') > -1) {
+                /**if (msg.indexOf('!evento') > -1) {
                     API.sendChat('/me A Move It! - Brasil está participando do evento BE (Brazil: The Event) que ocorre hoje dia 25/06 às 16h na sala https://plug.dj/brazil-events. Quem quiser pode aparecer por lá! Quem não quiser, a Move It continuará funcionando normalmente.');                    
-                }
+                }**/
                 if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
                     API.moderateDeleteChat(chat.cid);
                     return true;
