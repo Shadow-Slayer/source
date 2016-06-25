@@ -310,7 +310,7 @@
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://goo.gl/O4tlVo",
-            intervalMessages: ["!roleta","/me A Move It! - Brasil está participando do evento BE (Brazil: The Event) que ocorre hoje dia 25/06 às 16h na sala https://plug.dj/brazil-events. Quem quiser pode aparecer por lá! Quem não quiser, a Move It continuará funcionando normalmente. http://i.imgur.com/j1xc3ds.jpg?1",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
+            intervalMessages: ["!roleta","!evento",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
             messageInterval: 2,
             songstats: false,
             commandLiteral: "!",
@@ -1210,7 +1210,7 @@
                 }
                 
                 if (msg.indexOf('!evento') > -1) {
-                    API.sendChat('/me A Move It! - Brasil irá participar do evento BE (Brazil: The Event) que acontecerá no dia 25/06 às 16h. Contamos com a presença de todos! http://i.imgur.com/j1xc3ds.jpg?1');                    
+                    API.sendChat('/me A Move It! - Brasil está participando do evento BE (Brazil: The Event) que ocorre hoje dia 25/06 às 16h na sala https://plug.dj/brazil-events. Quem quiser pode aparecer por lá! Quem não quiser, a Move It continuará funcionando normalmente. http://i.imgur.com/j1xc3ds.jpg?1');                    
                 }
                 if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
                     API.moderateDeleteChat(chat.cid);
