@@ -1205,6 +1205,12 @@
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
                 }
+                
+                if (msg.indexOf('caralho') > -1 || msg.indexOf('motherfucker') > -1 || msg.indexOf('ppk') > -1 || msg.indexOf('fuder') > -1 || msg.indexOf('foder') > -1 || msg.indexOf('pau') > -1 || msg.indexOf('buceta') > -1 {
+                    API.moderateDeleteChat(chat.cid);
+                    API.sendChat(subChat(basicBot.chat.palavrao, {name: chat.un}));
+                    return true;
+                }
                 if (msg.indexOf('!clearchat') > -1) {
                     API.sendChat('/clear');                    
                 }
