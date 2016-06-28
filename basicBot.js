@@ -1793,7 +1793,7 @@
                     else {
                             var name = chat.message.substring(cmd.length + 2);
                             var msg = chat.message;
-                            API.sendChat('/me ' + name + ', em nossa comunidade não damos "chato" nas músicas, preferimos silencia-lá. Por favor utilize o botão de silenciar. '); 
+                            API.sendChat('/me @' + name + ', em nossa comunidade não damos "chato" nas músicas, preferimos silencia-lá. Por favor utilize o botão de silenciar. '); 
                      }
                 }
             },
