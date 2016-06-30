@@ -2,7 +2,7 @@
    "room": "Move It! - Brasil",
    "author": "Shadoso <3",
    "icon": "http://i.imgur.com/KkMZsiH.png?1",
-   "css": null,
+   "css": "https://rawgit.com/Shadow-Slayer/source/master/mib.css",
    "rules": {
       "allowAutorespond": true,
       "allowAutowoot": true,
