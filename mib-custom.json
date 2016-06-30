@@ -1,12 +1,12 @@
 {
    "room": "Move It! - Brasil",
    "author": "Shadoso <3",
-   "icon": null,
+   "icon": "http://i.imgur.com/KkMZsiH.png?1",
    "css": null,
    "rules": {
       "allowAutorespond": true,
       "allowAutowoot": true,
-      "allowAutojoin": true,
+      "allowAutojoin": false,
       "allowAutograb": true,
       "allowSmartVote": true,
       "allowEmotes": true,
