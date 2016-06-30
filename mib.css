@@ -1,0 +1,19 @@
+#room-host, #room-name {
+left: 105px;
+}
+
+#room-bar .icon-room {
+    top: 7px;
+    left: 7px;
+}
+i.icon.icon-room {
+    width: 130px;
+    height: 50px;
+}
+
+.icon-room {
+    background: url(http://i.imgur.com/KkMZsiH.png?1) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 65%;
+}
