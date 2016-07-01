@@ -44,6 +44,12 @@ i.icon.icon-room {
     font-weight: 600;
 }
 
+#chat .from {
+    position: relative;
+    margin-bottom: 3px;
+    font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+}
+
 #chat-input-field {
     position: absolute;
     top: 7px;
