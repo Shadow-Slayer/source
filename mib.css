@@ -44,6 +44,21 @@ i.icon.icon-room {
     font-weight: 600;
 }
 
+#chat-input-field {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 305px;
+    outline: 0;
+    border: 0;
+    background: 0 0;
+    color: #eee;
+    font-weight: 400;
+    font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+    font-size: 13px;
+}
+
+
 #woot.selected {
     background: #42ad2f;
 }
