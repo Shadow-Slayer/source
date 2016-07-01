@@ -26,3 +26,7 @@ i.icon.icon-room {
     background-repeat: no-repeat;
     background-position: 7px 7px;
 }**/
+
+#chat .emote .text {
+    font-family: 'Open Sans',sans-serif;
+}
