@@ -18,22 +18,11 @@ i.icon.icon-room {
     background-size: 65%;
 }
 
-#footer {
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+.badge-box.clickable {
+    display: none;
 }
-#footer {
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
-}
-#footer {
-    z-index: 90;
-    width: 100%;
-    background: #282c35;
-    -webkit-box-shadow: inset 0 2px 0 -1px #0A0A0A;
-    -moz-box-shadow: inset 0 2px 0 -1px #0A0A0A;
-    box-shadow: inset 0 2px 0 -1px #0A0A0A;
-}
-#footer, #playlist-button {
-    position: absolute;
-    left: 0;
-    height: 54px;
+.cm.message.id-4080795.role-host.role-none.role-none {
+    background-image: url(https://pbs.twimg.com/profile_images/678312075379220480/sLXMB7jr_normal.jpg);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
 }
