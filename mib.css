@@ -30,3 +30,6 @@ i.icon.icon-room {
 #chat .emote .text {
     font-family: 'Open Sans',sans-serif;
 }
+#chat-messages .text {
+    font-family: 'Open Sans',sans-serif;
+}
