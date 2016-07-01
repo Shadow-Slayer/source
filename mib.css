@@ -40,6 +40,8 @@ i.icon.icon-room {
 }
 #chat-messages .text {
     font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 #woot.selected {
