@@ -21,3 +21,11 @@ i.icon.icon-room {
 #footer {
     background: linear-gradient(rgba(0, 0, 0, 0.247059) 0px, rgba(0, 0, 0, 0.74902) 100%);
 }
+#footer {
+    z-index: 90;
+    width: 100%;
+    background: #282c35;
+    -webkit-box-shadow: inset 0 2px 0 -1px #0A0A0A;
+    -moz-box-shadow: inset 0 2px 0 -1px #0A0A0A;
+    box-shadow: inset 0 2px 0 -1px #0A0A0A;
+}
