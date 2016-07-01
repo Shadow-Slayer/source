@@ -47,6 +47,7 @@ i.icon.icon-room {
 #chat .from {
     position: relative;
     margin-bottom: 3px;
+    font-size: 13px;
     font-family: 'Comic Sans', 'Comic Sans MS', cursive;
 }
 
