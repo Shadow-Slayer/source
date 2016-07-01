@@ -1,3 +1,46 @@
+/**.badge-box.clickable {
+    display: none;
+}
+
+http://i.imgur.com/Ht8aNc5.png?1 -- emblema molde
+
+.cm.message.id-4080795.role-host.role-none.role-none {
+    background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=80);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+
+.cm.message.id-xxxxx.role-host.role-none.role-none {
+    background-image: url(duda);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+
+.cm.message.id-1380997.role-host.role-none.role-none {
+    background-image: url(away);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+
+.cm.message.id-3851265.role-host.role-none.role-none {
+    background-image: url(sabota);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+vzack
+.cm.message.id-4371581.role-host.role-none.role-none {
+    background-image: url(http://image.prntscr.com/image/7cc4df7a823c405fb372de83140b52fc.png);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+
+.cm.message.id-xxx.role-host.role-none.role-none {
+    background-image: url(nick);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+**/
+
 #room-host, #room-name {
 left: 105px;
 }
@@ -17,23 +60,6 @@ i.icon.icon-room {
     height: 0px;
     background-size: 65%;
 }
-
-/**.badge-box.clickable {
-    display: none;
-}
-.cm.message.id-4080795.role-host.role-none.role-none {
-    background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=80);
-    background-repeat: no-repeat;
-    background-position: 7px 7px;
-}
-
-
-
-
-
-
-
-**/
 
 #chat .emote .text {
     font-family: 'Open Sans',sans-serif;
