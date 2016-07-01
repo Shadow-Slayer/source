@@ -17,3 +17,7 @@ i.icon.icon-room {
     height: 0px;
     background-size: 65%;
 }
+
+#footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.247059) 0px, rgba(0, 0, 0, 0.74902) 100%);
+}
