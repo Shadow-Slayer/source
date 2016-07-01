@@ -61,7 +61,7 @@ i.icon.icon-room {
     background-size: 65%;
 }
 
-#chat .from {
+.from.staff {
 text-shadow: 0px 0px 10px #ac76ff;
 }
 
