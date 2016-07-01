@@ -33,3 +33,14 @@ i.icon.icon-room {
 #chat-messages .text {
     font-family: 'Open Sans',sans-serif;
 }
+
+#woot.selected {
+    background: #42ad2f;
+}
+.votes-rs .title.woot {
+    background: #42ad2f;
+}
+
+.votes-rs .title.grab {
+    background: #0550ad;
+}
